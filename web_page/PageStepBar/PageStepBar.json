@@ -1,0 +1,79 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "PageStepBar",
+  "name" : "PageStepBar",
+  "lastUpdate" : 1617285156987,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "value" : {
+            "type" : "constant",
+            "value" : "This is the initial value"
+          },
+          "mainColor" : {
+            "type" : "constant"
+          },
+          "background" : {
+            "type" : "constant",
+            "value" : "Yellow"
+          },
+          "stepList" : {
+            "type" : "constant",
+            "value" : [
+              "Phase 1",
+              "Phase 2",
+              "Phase 3",
+              "Phase 4",
+              "Phase 5"
+            ]
+          },
+          "currentStep" : {
+            "type" : "constant",
+            "value" : "Phase 4"
+          }
+        },
+        "reference" : "b3e18795-0102-471d-baf2-96520dbddf74",
+        "hasValidationError" : false,
+        "id" : "customStepBar"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "f5915294-1dee-45a5-8b55-1f341268ac8e",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d24a5e51-eb04-400a-875f-318b451d8b11",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "0e94a051-9be6-47e4-bb6b-4b52fd1a97f7",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
