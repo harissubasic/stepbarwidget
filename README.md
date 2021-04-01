@@ -6,3 +6,4 @@ There are two properties to configure:
 It is a comma-separated list of text value that will show up as milestones (steps).
 ## Current step
 Name of the step (or milestone) that you want to highlight as current. It must correspond to one of the values from the Step List, otherwise no step will be highlighted as current.
+![image](https://user-images.githubusercontent.com/9529036/113307492-790dd000-9305-11eb-9cdd-9543bd3e1ac8.png)
