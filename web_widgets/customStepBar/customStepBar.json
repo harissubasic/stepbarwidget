@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "customStepBar",
   "name" : "StepBar",
-  "lastUpdate" : 1617266369113,
+  "lastUpdate" : 1617983284744,
   "template" : "@customStepBar.tpl.html",
   "controller" : "@customStepBar.ctrl.js",
   "description" : "Step progress bar indicating main steps and the current one",
@@ -22,6 +22,14 @@
       "caption" : "Current step/phase",
       "help" : "Name of the current step to be highlighted (must exist in the step list)",
       "type" : "text",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Show step number",
+      "name" : "showStepNumber",
+      "help" : "Choose if you want to display the step number or not",
+      "type" : "boolean",
+      "defaultValue" : true,
       "bond" : "expression"
     }
   ],

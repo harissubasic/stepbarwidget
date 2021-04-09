@@ -8,7 +8,7 @@
 -->
 <ol class="progress-bar">
     <li ng-repeat="step in properties.stepList" class="progress-bar__steps {{ properties.currentStep === step ? 'current' : 'not-current' }}">
-        <span class="progress-bar__steps--numbers"></span>
+        <span ng-if=properties.showStepNumber class="progress-bar__steps--numbers"></span>
         <span class="progress-bar__steps--text">{{ step }}</span>
     </li>
 </ol>

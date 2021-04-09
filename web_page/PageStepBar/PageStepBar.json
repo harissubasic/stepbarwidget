@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "PageStepBar",
   "name" : "PageStepBar",
-  "lastUpdate" : 1617285156987,
+  "lastUpdate" : 1617983301418,
   "rows" : [
     [
       {
@@ -46,6 +46,10 @@
           "currentStep" : {
             "type" : "constant",
             "value" : "Phase 4"
+          },
+          "showStepNumber" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "b3e18795-0102-471d-baf2-96520dbddf74",
